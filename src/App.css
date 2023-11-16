@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.photo-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1rem;
+  margin: 1rem;
+}
+
+/* Form.css */
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: #333;
+}
+
+/* Title.css */
+
+.title {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #4caf50;
+}
